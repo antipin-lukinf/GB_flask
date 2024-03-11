@@ -15,5 +15,5 @@ def main():
     return render_template('main.html', **context)
 @app.route('/data/')
 def data():
-    context = {'title': 'База статей'}
+    context = {'title': 'База статей.'}
     return render_template('data.html', **context)
